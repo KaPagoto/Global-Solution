@@ -3,11 +3,13 @@
     margin: 0;
     font-size: 100%;
     box-sizing: border-box;
-    
+    list-style: none;
 }
 
 #fundo {
     background: linear-gradient(to left,#8a04f7e3, #2f04a7e3);
+    width: 100%;
+    padding-bottom: 40%;
 }
 
 header {
@@ -25,11 +27,25 @@ header::after {
     display: block;
     position: absolute;
     height: 2px;
-    width: 100%;
-    background-color: rgb(230, 224, 224);
-    margin-top: 10px;
+    width: 58%;
+    background-color: rgba(230, 224, 224, 0.295);
+    margin-top: -10px;
     margin-left: 0;
     margin-right: 0;
+    height: 8px;
+    border-radius: 10px;
+}
+
+#perg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container-fluid{
+    width: 60%;
+    padding-top: 50px;
 }
 
 .container1 {
@@ -40,7 +56,97 @@ header::after {
     box-shadow: 1px 5px 15px -3px rgba(0, 0, 0, 0.46);
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
-    height: 40vh;
+    height: 70vh;
     padding-top: 40px;
-    width: 70%;
+    width: 100%;
+}
+
+#esqdir {
+    display: flex;
+}
+
+#esqicon {
+    padding-left: 7%;
+    padding-right: 8%;
+}
+
+#esqicon p {
+    background-color: rgba(47, 0, 255, 0.082);
+    border-radius: 50%;
+    font-size: 30px;
+    width: 300%;
+    color: rgb(148, 47, 231);
+}
+
+#textdirei {
+    text-align: left;
+}
+
+#p1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#p2 {
+    color: rgb(107, 107, 107);
+    margin-bottom: 30px;
+}
+
+ul button {
+    border-color: rgba(194, 192, 192, 0.137);
+    background-color: white;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    border-radius: 10px;
+}
+
+ul button:hover {
+    border-color: rgba(174, 0, 255, 0.356);
+}
+
+#btn1 {
+    padding-right: 40%;
+}
+
+#btn2 {
+    padding-right: 52.5%;
+}
+
+#btn3 {
+    padding-right: 52%;
+}
+
+#btn4 {
+    padding-right: 53%;
+}
+
+ul {
+    text-align: left;
+    padding-left: 7%;
+}
+
+li i {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+#btnf {
+    padding: 15px 30px;
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0);
+    background: linear-gradient(to left,#d36fa6, #ff00ffe3);
+    color: white;
+}
+
+.textinesq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btnf:hover {
+    background: linear-gradient(to left,#b35f8d, #d800d8e3);
 }
