@@ -4,12 +4,11 @@
     font-size: 100%;
     box-sizing: border-box;
     list-style: none;
+    box-sizing: border-box;
 }
 
-#fundo {
+body {
     background: linear-gradient(to left,#8a04f7e3, #2f04a7e3);
-    width: 100%;
-    padding-bottom: 40%;
 }
 
 header {
@@ -27,11 +26,11 @@ header::after {
     display: block;
     position: absolute;
     height: 2px;
-    width: 58%;
+    width: 85%;
+    max-width: 580px;
+    margin: 100px auto;
     background-color: rgba(230, 224, 224, 0.295);
     margin-top: -10px;
-    margin-left: 0;
-    margin-right: 0;
     height: 8px;
     border-radius: 10px;
 }
@@ -44,8 +43,9 @@ header::after {
 }
 
 .container-fluid{
-    width: 60%;
-    padding-top: 50px;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
 }
 
 .container1 {
@@ -66,7 +66,7 @@ header::after {
 }
 
 #esqicon {
-    padding-left: 7%;
+    padding-left: 4%;
     padding-right: 8%;
 }
 
@@ -80,6 +80,7 @@ header::after {
 
 #textdirei {
     text-align: left;
+    margin-left: 10px;
 }
 
 #p1 {
@@ -92,7 +93,7 @@ header::after {
     margin-bottom: 30px;
 }
 
-ul button {
+/* ul button {
     border-color: rgba(194, 192, 192, 0.137);
     background-color: white;
     padding-left: 30px;
@@ -131,14 +132,20 @@ ul {
 li i {
     font-size: 25px;
     margin-right: 20px;
-}
+} */
 
 #btnf {
-    padding: 15px 30px;
-    border-radius: 10px;
-    border-color: rgba(255, 255, 255, 0);
+    padding: 15px;
+    margin: 20px auto 0;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
     background: linear-gradient(to left,#d36fa6, #ff00ffe3);
     color: white;
+    cursor: pointer;
+    /* display: none; */
 }
 
 .textinesq {
@@ -150,3 +157,25 @@ li i {
 #btnf:hover {
     background: linear-gradient(to left,#b35f8d, #d800d8e3);
 }
+
+.btn {
+    font-weight: 500;
+    width: 90%;
+    border: 1px solid rgba(194, 192, 192, 0.137);
+    padding: 10px;
+    margin: 10px 10px;
+    padding-left: 50px;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+    border-color: rgba(174, 0, 255, 0.589);
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
