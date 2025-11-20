@@ -35,6 +35,20 @@ header::after {
     border-radius: 10px;
 }
 
+header a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 30%;
+    max-width: 250px;
+    margin: 100px auto;
+    background-color: rgb(230, 224, 224);
+    margin-top: 60px;
+    height: 8px;
+    border-radius: 10px;
+}
+
 #perg {
     display: flex;
     justify-content: space-between;
