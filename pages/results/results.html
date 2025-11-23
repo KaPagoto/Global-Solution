@@ -4,15 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Resultado do Quiz</title>
-  <link rel="stylesheet" href="../css/frontEnd.css" />
+  <link rel="stylesheet" href="./css/frontEnd.css" id="profile-css" />
 </head>
 
 <body>
 
   <div class="header">
-    <div class="title-icon">🎨</div>
+    <div class="title-icon" id="title-icon">🎨</div>
     <div class="section-title">Seu Perfil Ideal</div>
-    <div class="section-subtitle">
+    <div class="section-subtitle" id="section-subtitle">
       Desenvolvedor(a) Front-End<br>
       Você é criativo e gosta de ver resultados visuais! Como Front-End Developer, você será responsável por criar interfaces bonitas, responsivas e intuitivas que os usuários adoram usar.
     </div>
@@ -29,7 +29,7 @@
       </svg>
 
       <h3>Faixa Salarial</h3>
-      <p>R$ 4.000 - R$ 12.000</p>
+      <p id="salary-range">R$ 4.000 - R$ 12.000</p>
     </div>
     <div class="card">
       <svg width="35px" height="35px" viewBox="-2.4 -2.4 28.80 28.80" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="5.76" fill="#e2edfd" strokewidth="0"/></g>
@@ -38,7 +38,7 @@
       </svg>
 
       <h3>Demanda no Mercado</h3>
-      <p>Muito Alta</p>
+      <p id="market-demand">Muito Alta</p>
     </div>
     <div class="card">
 
@@ -48,7 +48,7 @@
       </svg>
 
       <h3>Tempo de Aprendizado</h3>
-      <p>6 - 12 meses</p>
+      <p id="learning-time">6 - 12 meses</p>
     </div>
   </div>
 
@@ -65,42 +65,8 @@
       </div>
     </div>
 
-    <div class="roadmap-step">
-        <div class="step-number">1</div>
-        <div class="step-content">
-          <h3>Fundamentos Web</h3>
-          <p>Aprenda HTML, CSS e JavaScript - a base de tudo na web</p>
-        </div>
-        <div class="step-time">2–3 meses</div>
-      </div>
-
-      <div class="roadmap-step">
-        <div class="step-number">2</div>
-        <div class="step-content">
-          <h3>Frameworks Modernos</h3>
-          <p>Domine React, Vue ou Angular para criar aplicações profissionais</p>
-        </div>
-        <div class="step-time">3–4 meses</div>
-      </div>
-
-      <div class="roadmap-step">
-        <div class="step-number">3</div>
-        <div class="step-content">
-          <h3>Design & UX</h3>
-          <p>Entenda princípios de design, acessibilidade e experiência do usuário</p>
-        </div>
-        <div class="step-time">1–2 meses</div>
-      </div>
-
-      <div class="roadmap-step">
-        <div class="step-number">4</div>
-        <div class="step-content">
-          <h3>Portfólio & Prática</h3>
-          <p>Construa projetos reais e prepare seu portfólio para o mercado</p>
-        </div>
-        <div class="step-time">2–3 meses</div>
-      </div>
-    </div>
+    <div id="roadmap-steps"></div>
+  </div>
 
   <div class="skills-container">
     <div class="box-title">
@@ -114,18 +80,7 @@
     </div>
   </div>
 
-  <div class="skills-tags">
-    <span class="tag"><span class="check">✔</span> HTML/CSS</span>
-    <span class="tag"><span class="check">✔</span> JavaScript</span>
-    <span class="tag"><span class="check">✔</span> React</span>
-    <span class="tag"><span class="check">✔</span> TypeScript</span>
-    <span class="tag"><span class="check">✔</span> Tailwind CSS</span>
-    <span class="tag"><span class="check">✔</span> Git</span>
-    <span class="tag"><span class="check">✔</span> Responsive Design</span>
-    <span class="tag"><span class="check">✔</span> UI/UX Básico</span>
-  </div>
-
-</div>
+  <div class="skills-tags" id="skills-tags"></div>
 
   <div class="resources-container">
     <div class="box-title">
@@ -139,41 +94,7 @@
     </div>
   </div>
 
-    <div class="resource-grid">
-      <a href="https://www.freecodecamp.org" target="_blank" class="resource-card">
-        <div>
-          <h3>FreeCodeCamp</h3>
-          <p>Curso Gratuito</p>
-        </div>
-        <span class="icon">↗</span>
-      </a>
-
-      <a href="https://developer.mozilla.org/pt-BR" target="_blank" class="resource-card">
-        <div>
-          <h3>MDN Web Docs</h3>
-          <p>Documentação</p>
-        </div>
-        <span class="icon">↗</span>
-      </a>
-
-      <a href="https://pt-br.react.dev/learn" target="_blank" class="resource-card">
-        <div>
-          <h3>React - Documentação Oficial</h3>
-          <p>Docs</p>
-        </div>
-        <span class="icon">↗</span>
-      </a>
-
-      <a href="https://www.frontendmentor.io" 
-        target="_blank" class="resource-card">
-        <div>
-          <h3>Frontend Mentor</h3>
-          <p>Prática</p>
-        </div>
-        <span class="icon">↗</span>
-      </a>
-      </div>
-    </div>
+  <div class="resource-grid" id="resource-grid"></div>
 
   <div class="footer">
     <div class="footer-content">
@@ -212,6 +133,6 @@
     </div>
   </div>
 
-  <script src="../scripts/script.js"></script>
+  <script src="./scripts/results.js"></script>
 </body>
 </html>

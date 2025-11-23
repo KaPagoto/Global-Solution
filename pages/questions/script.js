@@ -52,7 +52,6 @@ const questions = [
 ];
 
 let currentQuestion = 0;
-let answers = [];
 
 function updateProgress() {
     const progress = Math.round((currentQuestion / questions.length) * 100);
@@ -94,20 +93,12 @@ function nextQuestion() {
     const selectedButton = document.querySelector('.btn-option.selected');
     if (!selectedButton) return;
     
-    const selectedIndex = Array.from(document.querySelectorAll('.btn-option')).indexOf(selectedButton);
-    answers.push({
-        question: currentQuestion + 1,
-        answer: selectedIndex,
-        text: questions[currentQuestion].options[selectedIndex].text
-    });
-    
     currentQuestion++;
     
     if (currentQuestion < questions.length) {
         renderQuestion();
     } else {
-        window.answers = answers;
-        window.location.href = '../../../results/templates/frontEnd.html';
+        window.location.href = '../results/results.html';
     }
 }
 
