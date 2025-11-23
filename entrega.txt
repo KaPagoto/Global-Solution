@@ -4,5 +4,5 @@ MEMBROS:
     Maria Luísa - RM567248
     João - RM567546
     Kauan - RM568437
-URL DEPLOY: https://globalsolution-ojwz4vbc7-sousa-jps-projects.vercel.app/
+URL DEPLOY: https://global-solotion-2025-q6qaur8ty-sousa-jps-projects.vercel.app/
 PITCH VIDEO:
