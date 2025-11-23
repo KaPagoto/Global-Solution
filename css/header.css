@@ -1,0 +1,41 @@
+header {
+    background-color: oklch(.13 .028 261.692);
+    padding: 8px 0px 8px 0px;
+}
+
+.header-icon-container {
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background: linear-gradient(to right, #8B00FF, #FF1493);
+    display: flex;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+}
+
+.header-brand-text {
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.header-menu-container {
+    font-size: 15px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header-menu-item {
+    background-color: transparent;
+    border: none;
+    color: #ffffff9c;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    padding: 5px 10px;
+    white-space: nowrap;
+}
+
+.header-menu-item:hover {
+    color: #ffffff;
+}

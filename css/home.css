@@ -1,0 +1,112 @@
+.home-info-container {
+    background: linear-gradient(to bottom right, #66148c, #4A148C, #7B1FA2);
+    font-size: 15px;
+}
+.row-info-section {
+    padding: 80px 0px 240px 0px;
+}
+
+.row-info-up-message {
+    font-size: 14px;
+    border: 1px solid #7B1FA2;
+    background: linear-gradient(to right, #5a16acb4, #4A148C, #7b1fa2bb);
+    border-radius: 20px;
+    padding: 8px 12px 8px 12px;
+    display: inline-block;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+}
+.row-info-up-message i {
+    margin-right: 5px;
+    color: #ffdc14;
+}
+
+#row-info-section-ideal-job {
+    background: linear-gradient(to right, #e3c6ff96, #963fff, #ea00ffbb);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.row-info-text-content p {
+    letter-spacing: 0.4px;
+    font-size: 18px;
+}
+
+.btn-home-start-test {
+    background: linear-gradient(to right, #963fff, #ea00ffbb);
+    border: none;
+    border-radius: 15px;
+    padding: 15px 30px 15px 30px;
+    color: white;
+    margin-right: 10px;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+}
+
+.btn-home-start-test:hover {
+    background: linear-gradient(to right, #7b1fa2bb, #df00a7bb);
+}
+
+.btn-home-more-info {
+    background: #953fff4d;
+    border: 1px solid #953fffad;
+    border-radius: 15px;
+    padding: 15px 25px 15px 25px;
+    color: white;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+}
+
+.btn-home-more-info:hover {
+    background: #7b1fa2bb;
+    border: 1px solid #953fffad;
+}
+
+.row-info-time-icon {
+    background: rgba(5, 150, 5, 0.267);
+    border-radius: 50%;
+    padding: 10px 12px 10px 12px;
+    color: #059605;
+    font-size: 20px;
+}
+
+.row-info-award-icon {
+    background: rgba(5, 116, 150, 0.267);
+    border-radius: 50%;
+    padding: 10px 12px 10px 12px;
+    color: rgb(5, 116, 150);
+    font-size: 20px;
+}
+
+.row-info-card-insights {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 21px;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.row-info-card-insights:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+
+.row-info-card-insights-icon {
+    border-radius: 12px;
+    padding: 12px 14px 12px 14px;
+    font-size: 18px;
+    margin-right: 15px;
+    color: white;
+}
+
+#row-info-card-insights-icon-graph {
+    background: linear-gradient(to bottom right, #7B1FA2, #b21ab8);
+}
+
+#row-info-card-insights-icon-person {
+    background: linear-gradient(to bottom right, #1490ca, #1490ca60);
+}
+
+#row-info-card-insights-icon-map {
+    background: linear-gradient(to bottom right, #d1b01f, #d1571f);
+}
