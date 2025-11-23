@@ -1,0 +1,8 @@
+NOME DO GRUPO: TOP 4 FIAP
+MEMBROS:
+    Kaique - RM567987
+    Maria Luísa - RM567248
+    João - RM567546
+    Kauan - RM568437
+URL DEPLOY: https://globalsolution-ojwz4vbc7-sousa-jps-projects.vercel.app/
+PITCH VIDEO:

@@ -3,15 +3,8 @@ header {
     padding: 8px 0px 8px 0px;
 }
 
-.header-icon-container {
-    font-size: 20px;
-    border: 1px solid transparent;
-    border-radius: 10px;
-    background: linear-gradient(to right, #8B00FF, #FF1493);
-    display: flex;
-    align-items: center;
-    padding: 0px 10px 0px 10px;
-}
+
+
 
 .header-brand-text {
     font-size: 16px;
