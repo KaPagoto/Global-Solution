@@ -173,20 +173,6 @@ function restartQuiz() {
     window.location.href = '../questions/questions.html';
 }
 
-function share() {
-    if (navigator.share) {
-        navigator.share({
-            title: 'Resultado do Quiz de Carreira Tech',
-            text: `Meu perfil ideal é: ${document.getElementById('section-subtitle').textContent.split('\n')[0]}`,
-            url: window.location.href
-        }).catch(() => {
-            alert('Funcionalidade de compartilhamento em desenvolvimento!');
-        });
-    } else {
-        alert('Funcionalidade de compartilhamento em desenvolvimento!');
-    }
-}
-
 function goHome() {
     window.location.href = '../../../index.html';
 }

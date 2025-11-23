@@ -51,7 +51,7 @@ const questions = [
     }
 ];
 
-let currentQuestion = 0;
+const currentQuestion = 0;
 
 function updateProgress() {
     const progress = Math.round((currentQuestion / questions.length) * 100);
