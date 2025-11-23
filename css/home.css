@@ -4,13 +4,13 @@ body {
     background-color: #f8f9fa;
    
   }
-  
+
 .home-info-container {
     background: linear-gradient(to bottom right, #66148c, #4A148C, #7B1FA2);
     font-size: 15px;
 }
 .row-info-section {
-    padding: 80px 0px 240px 0px;
+    padding: 80px 0px 160px 0px;
 }
 
 .row-info-up-message {
@@ -116,4 +116,32 @@ body {
 
 #row-info-card-insights-icon-map {
     background: linear-gradient(to bottom right, #d1b01f, #d1571f);
+}
+
+.home-info-our-mission {
+    background: #d269ff18;
+    border-radius: 20px;
+    border: 1px solid #7b1fa227;
+    padding: 30px;
+    letter-spacing: 0.5px;
+}
+
+.home-info-our-mission-title {
+    border: 1px solid #7b1fa227;
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    background: white;
+    font-size: 14px;
+    color: #7b1fa2;
+    margin-bottom: 30px;
+}
+
+.home-info-our-mission p {
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+#home-info-our-mission-subtitle {
+    color: #7b1fa2;
+    margin-bottom: 10px;
 }
