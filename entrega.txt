@@ -5,4 +5,4 @@ MEMBROS:
     João - RM567546
     Kauan - RM568437
 URL DEPLOY: https://global-solotion-2025-q6qaur8ty-sousa-jps-projects.vercel.app/
-PITCH VIDEO:
+PITCH VIDEO: https://youtu.be/NJLMx-pIQsc
